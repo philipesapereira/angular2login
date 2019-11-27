@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { StorageService } from './shared/Storage.service';
 
 @Component({
   selector: 'app-root',
@@ -8,8 +7,4 @@ import { StorageService } from './shared/Storage.service';
 })
 export class AppComponent {
   title = 'angular2login';
-
-  constructor(
-    private storageService: StorageService
-  ) {}
 }
